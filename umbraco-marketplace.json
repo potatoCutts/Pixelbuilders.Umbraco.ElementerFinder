@@ -8,7 +8,7 @@
     "Name": "Pixelbuilders",
     "Description": "Leeds Digital Agency. Focused On Delivering Innovative & Intuitive Answers To Digital Problems.",
     "Url": "https://www.pixelbuilders.com/",
-    "ImageUrl": "https://www.pixelbuilders.com/SiteFiles/Images/svg/pixelbuilders.svg",
+    "ImageUrl": "https://github.com/potatoCutts/Pixelbuilders.Umbraco.ElementerFinder/blob/main/images/logo.png",
     "Contributors": [
       {
         "Name": "Daniel Cutts",
@@ -23,32 +23,20 @@
   "DocumentationUrl": "https://github.com/potatoCutts/",
   "IssueTrackerUrl": "https://github.com/potatoCutts/",
   "PackageType": "Package",
-  "Tags": [ "ElementFinder", "Element Finder", "Block Finder", "Content Fincer", "Changelog", "Change", "Log", "Logs" ],
+  "Tags": [ "ElementFinder", "Element Finder", "Block Finder", "Content Finder", "Changelog", "Change", "Log", "Logs" ],
   "Title": "Client Drawer",
   "Screenshots": [
     {
-      "ImageUrl": "https://raw.githubusercontent.com/AndyBoot/Umbraco.Community.ClientDrawer/main/images/screenshot1.png",
+      "ImageUrl": "https://github.com/potatoCutts/Pixelbuilders.Umbraco.ElementerFinder/blob/main/images/image-1.png",
       "Caption": "Screenshot 1"
     },
     {
-      "ImageUrl": "https://raw.githubusercontent.com/AndyBoot/Umbraco.Community.ClientDrawer/main/images/screenshot2.png",
+      "ImageUrl": "https://github.com/potatoCutts/Pixelbuilders.Umbraco.ElementerFinder/blob/main/images/image-2.png",
       "Caption": "Screenshot 2"
     },
     {
-      "ImageUrl": "https://raw.githubusercontent.com/AndyBoot/Umbraco.Community.ClientDrawer/main/images/screenshot3.png",
+      "ImageUrl": "https://github.com/potatoCutts/Pixelbuilders.Umbraco.ElementerFinder/blob/main/images/image-3.png",
       "Caption": "Screenshot 3 - Change Log"
-    },
-    {
-      "ImageUrl": "https://raw.githubusercontent.com/AndyBoot/Umbraco.Community.ClientDrawer/main/images/screenshot4.png",
-      "Caption": "Screenshot 4 - Icon Button"
-    },
-    {
-      "ImageUrl": "https://raw.githubusercontent.com/AndyBoot/Umbraco.Community.ClientDrawer/main/images/screenshot5.png",
-      "Caption": "Screenshot 5 - Icon + Environment Name Button"
-    },
-    {
-      "ImageUrl": "https://raw.githubusercontent.com/AndyBoot/Umbraco.Community.ClientDrawer/main/images/screenshot6.png",
-      "Caption": "Screenshot 6 - Environment Name Button"
     }
   ]
 }
