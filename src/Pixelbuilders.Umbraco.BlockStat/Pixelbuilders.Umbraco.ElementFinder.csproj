@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StaticWebAssetBasePath>/</StaticWebAssetBasePath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Pixelbuilders.Umbraco.BlockStat</PackageId>
+    <Product>Pixelbuilders.Umbraco.BlockStat</Product>
+    <Title>Pixelbuilders.Umbraco.BlockStat</Title>
+    <Description>...</Description>
+    <PackageTags>umbraco plugin package</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\App_Plugins\ElementFinder\ElementFinder.html" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="13.0.0" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.0.0" />
+  </ItemGroup>
+</Project>
