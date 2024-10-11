@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>Pixelbuilders.Umbraco.BlockStat</PackageId>
-    <Product>Pixelbuilders.Umbraco.BlockStat</Product>
-    <Title>Pixelbuilders.Umbraco.BlockStat</Title>
+    <PackageId>Pixelbuilders.Umbraco.ElementFinder</PackageId>
+    <Product>Pixelbuilders.Umbraco.ElementFinder</Product>
+    <Title>Pixelbuilders.Umbraco.ElementFinder</Title>
     <Description>...</Description>
     <PackageTags>umbraco plugin package</PackageTags>
   </PropertyGroup>
@@ -24,4 +24,20 @@
     <PackageReference Include="Umbraco.Cms.Web.Website" Version="13.0.0" />
     <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.0.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NUGET.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="copy &quot;..\..\README.md&quot; NUGET.md" />
+    <Exec Command="copy &quot;..\..\images\logo.png&quot; logo.png" />
+  </Target>
 </Project>
